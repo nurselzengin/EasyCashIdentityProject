@@ -8,7 +8,7 @@ namespace EasyCashIdentityProjectEntityLayer.Concrete
 {
     public class CustomerAccountTransactions
     {
-        public int CustomerAccountTransactionID { get; set; }
+        public int CustomerAccountTransactionsID { get; set; }
         public string TransactionType { get; set; }
         public decimal Amount { get; set; }
         public DateTime TransactionDate { get; set; }
